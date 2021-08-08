@@ -5,6 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML 연습</title>
+    <style>
+        *{
+            margin: 5px;
+        }
+
+        header, footer {
+            background-color: blue;
+            color: white;
+            text-align:center;
+            padding: 20px;
+
+        }
+
+        nav {
+            background-color: blue;
+            padding: 15px;
+            text-align: center;
+            opacity: 0.5;
+            
+        }
+
+        section{
+            padding: 10px;
+        }
+
+        .c1 {
+            border-color: rgb(89, 89, 243);
+            border-style: solid;
+            border-left-width: 15px;
+            padding: 15px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -12,14 +45,14 @@
     </header>
 
     <nav>
-        <a href="#s1">[개인정보]</a>
-        <a href="#s2">[학력사항]</a>
-        <a href="#s3">[자격사항]</a>
-        <a href="#s4">[자기소개]</a>
+        <a href="#s1" style="color:white">[개인정보]</a>
+        <a href="#s2" style="color:white">[학력사항]</a>
+        <a href="#s3" style="color:white">[자격사항]</a>
+        <a href="#s4" style="color: white">[자기소개]</a>
     </nav>
 
     <section id="s1">
-        <h2>개인정보</h2>
+        <h2 class="c1">개인정보</h2>
         <img src="./라이언.jpg" width="70", height="100">
         <ul>
             <li>본인성명</li>
@@ -30,7 +63,7 @@
     </section>
 
     <section id="s2">
-        <h2>학력사항</h2>
+        <h2 class="c1">학력사항</h2>
         <ul>
             <li><img src="./라이언.jpg" width="30", height="45"><a href="https://www.skku.edu/skku/index.do">대학교 재학</a></li>
             <li><img src="./라이언.jpg" width="30", height="45"><a href="http://www.daegu.hs.kr/">고등학교 졸업</a></li>
@@ -40,7 +73,7 @@
     </section>
 
     <section id="s3">
-        <h2>자격사항</h2>
+        <h2 class="c1">자격사항</h2>
         <ul>
             <li>컴퓨터 활용능력 1급</li>
             <li>컴퓨터 활용능력 2급</li>
@@ -49,7 +82,7 @@
     </section>
 
     <section id="s4">
-        <h2>자기소개</h2>
+        <h2 class="c1">자기소개</h2>
         <div>
             <a href="./html2.html">SWOT 분석</a>
         </div>
