@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Yeon+Sung&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gamja+Flower&family=Yeon+Sung&display=swap');
+
+.c1 {
+    border-style: solid;
+    padding:30px 50px 30px 50px;
+    margin-right: 1000px;
+
+}
+
+#h1 {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.c2 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.c3 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Gamja Flower', cursive;
+    font-family: 'Yeon Sung', cursive;
+}
+        
+        
