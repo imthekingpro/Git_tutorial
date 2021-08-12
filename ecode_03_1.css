@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Style+Script&display=swap');
+
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("https://pixabay.com/get/gcbb508d3eb861bc050bdce279a4a8e22f5b58114f8e5a1d967f923a580312874cf2af0ed56bc16ac7bb53dcefa50be9d_1280.jpg");
+}
+
+.layer {
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    display: inline;
+}
+
+.main_container {
+    padding-bottom: 100px;
+}
+
+#title {
+    color: rgb(168, 157, 157);
+    text-align: left;
+    font-family: 'GongGothicMedium';
+    font-size: 50px;
+    position: relative;
+}
+
+.detail {
+    color: rgb(168, 157, 157);
+    font-size: 20px;
+    font-family: 'NEXON Lv1 Gothic OTF';
+    float: right;
+    margin: 10px;
+    position: relative;
+}
+
+hr{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    color: white;
+    border-bottom: solid 2px white;
+    position: relative;
+}
+
+p {
+    color: white;
+    position: relative;
+}
+
+section {
+    border: solid 2px white;
+    text-align: center;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
